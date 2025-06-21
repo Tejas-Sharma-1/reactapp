@@ -1,0 +1,147 @@
+import { FoodItem } from '@/types';
+
+export const foodCategories = [
+  { id: 'burgers', name: 'Burgers', icon: '🍔' },
+  { id: 'pizza', name: 'Pizza', icon: '🍕' },
+  { id: 'drinks', name: 'Drinks', icon: '🥤' },
+  { id: 'desserts', name: 'Desserts', icon: '🍰' },
+  { id: 'salads', name: 'Salads', icon: '🥗' },
+  { id: 'chicken', name: 'Chicken', icon: '🍗' },
+];
+
+export const foodItems: FoodItem[] = [
+  // Burgers
+  {
+    id: '1',
+    name: 'Classic Beef Burger',
+    description: 'Juicy beef patty with lettuce, tomato, onion, and our special sauce',
+    price: 12.99,
+    image: 'https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'burgers',
+    featured: true,
+  },
+  {
+    id: '2',
+    name: 'Chicken Deluxe',
+    description: 'Crispy chicken breast with avocado, bacon, and chipotle mayo',
+    price: 14.99,
+    image: 'https://images.pexels.com/photos/2089717/pexels-photo-2089717.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'burgers',
+    popular: true,
+  },
+  {
+    id: '3',
+    name: 'Veggie Supreme',
+    description: 'Plant-based patty with mushrooms, peppers, and herb aioli',
+    price: 11.99,
+    image: 'https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'burgers',
+  },
+  // Pizza
+  {
+    id: '4',
+    name: 'Margherita Pizza',
+    description: 'Fresh mozzarella, tomato sauce, and basil on crispy crust',
+    price: 16.99,
+    image: 'https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'pizza',
+    featured: true,
+  },
+  {
+    id: '5',
+    name: 'Pepperoni Supreme',
+    description: 'Classic pepperoni with extra cheese and oregano',
+    price: 18.99,
+    image: 'https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'pizza',
+    popular: true,
+  },
+  {
+    id: '6',
+    name: 'Quattro Stagioni',
+    description: 'Four seasons pizza with mushrooms, artichokes, ham, and olives',
+    price: 21.99,
+    image: 'https://images.pexels.com/photos/1260968/pexels-photo-1260968.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'pizza',
+  },
+  // Drinks
+  {
+    id: '7',
+    name: 'Fresh Orange Juice',
+    description: 'Freshly squeezed orange juice with pulp',
+    price: 4.99,
+    image: 'https://images.pexels.com/photos/1337825/pexels-photo-1337825.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'drinks',
+  },
+  {
+    id: '8',
+    name: 'Craft Cola',
+    description: 'House-made cola with natural ingredients',
+    price: 3.99,
+    image: 'https://images.pexels.com/photos/2775860/pexels-photo-2775860.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'drinks',
+    popular: true,
+  },
+  {
+    id: '9',
+    name: 'Iced Coffee',
+    description: 'Cold brew coffee with ice and your choice of milk',
+    price: 5.49,
+    image: 'https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'drinks',
+  },
+  // Desserts
+  {
+    id: '10',
+    name: 'Chocolate Brownie',
+    description: 'Rich chocolate brownie with vanilla ice cream',
+    price: 7.99,
+    image: 'https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'desserts',
+    featured: true,
+  },
+  {
+    id: '11',
+    name: 'Cheesecake Slice',
+    description: 'New York style cheesecake with berry compote',
+    price: 8.99,
+    image: 'https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'desserts',
+  },
+  // Salads
+  {
+    id: '12',
+    name: 'Caesar Salad',
+    description: 'Crisp romaine lettuce with parmesan, croutons, and Caesar dressing',
+    price: 10.99,
+    image: 'https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'salads',
+  },
+  {
+    id: '13',
+    name: 'Greek Salad',
+    description: 'Fresh vegetables with feta cheese, olives, and olive oil',
+    price: 11.99,
+    image: 'https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'salads',
+    popular: true,
+  },
+  // Chicken
+  {
+    id: '14',
+    name: 'BBQ Chicken Wings',
+    description: 'Spicy chicken wings with our signature BBQ sauce',
+    price: 13.99,
+    image: 'https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'chicken',
+    popular: true,
+  },
+  {
+    id: '15',
+    name: 'Grilled Chicken Breast',
+    description: 'Herb-marinated chicken breast with seasonal vegetables',
+    price: 15.99,
+    image: 'https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'chicken',
+  },
+];
